@@ -1,0 +1,32 @@
+/* Reset all elements */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  &::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+}
+
+.navigation {
+  list-style: none;
+  float: left;
+
+  li {
+    display: inline-block;
+    margin-left: 30px;
+    text-transform: uppercase;
+  }
+}
+
+.call-to-action {
+  .call, .book {
+    float: right;
+    margin-right: 30px;
+    text-transform: uppercase;
+  }
+}
