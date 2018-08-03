@@ -1,0 +1,1 @@
+* Compile scss to css ```npm run compile:sass```
