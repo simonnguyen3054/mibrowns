@@ -8,10 +8,9 @@
 .header {
   height: 95vh;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(254, 227, 215, 0.3)),
-    url(../images/everygirlboss-com-646027-unsplash.jpg);
+    url(../images/element5-digital-611467-unsplash.jpg);
   background-size: cover;
   background-position: top;
-  clip-path: polygon(0 0, 100% 0, 100% 70vh, 0 100%);
   position: relative;
 }
 
@@ -35,6 +34,12 @@ nav {
     text-transform: uppercase;
     color: #fff;
     font-family: 'Montserrat', sans-serif;
+    border-top: solid 1px transparent;
+    transition: .5s;
+
+    &:hover {
+      border-top: solid 1px
+    }
   }
 }
 
@@ -59,6 +64,7 @@ nav {
     padding: 10px;
     margin-top: 20px;
     cursor: pointer;
+    text-decoration: none;
   }
 
   .book:hover {

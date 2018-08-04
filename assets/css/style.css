@@ -6,10 +6,9 @@
 
 .header {
   height: 95vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(254, 227, 215, 0.3)), url(../images/everygirlboss-com-646027-unsplash.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(254, 227, 215, 0.3)), url(../images/element5-digital-611467-unsplash.jpg);
   background-size: cover;
   background-position: top;
-  clip-path: polygon(0 0, 100% 0, 100% 70vh, 0 100%);
   position: relative; }
 
 nav::after {
@@ -27,7 +26,11 @@ nav::after {
     margin-left: 30px;
     text-transform: uppercase;
     color: #fff;
-    font-family: 'Montserrat', sans-serif; }
+    font-family: 'Montserrat', sans-serif;
+    border-top: solid 1px transparent;
+    transition: .5s; }
+    .navigation li:hover {
+      border-top: solid 1px; }
 
 .call-to-action {
   margin-right: 100px; }
@@ -44,7 +47,8 @@ nav::after {
     background-color: black;
     padding: 10px;
     margin-top: 20px;
-    cursor: pointer; }
+    cursor: pointer;
+    text-decoration: none; }
   .call-to-action .book:hover {
     color: black;
     background-color: #fff; }
